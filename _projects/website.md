@@ -94,6 +94,20 @@ leadership:
       slack: https://hackforla.slack.com/team/U07QWL2A5BN
       github: https://github.com/siyunfeng
     picture: https://avatars.githubusercontent.com/siyunfeng
+  - name: Daniel Franco
+    github-handle: FamousHero
+    role: Merge Team
+    links:
+      slack: https://hackforla.slack.com/team/U076AV5ALPP
+      github: https://github.com/FamousHero
+    picture: https://avatars.githubusercontent.com/FamousHero
+  - name: Kristen Cardon
+    github-handle: k-cardon
+    role: Merge Team
+    links:
+      slack: https://hackforla.slack.com/team/U07HCNXLCKH
+      github: https://github.com/k-cardon
+    picture: https://avatars.githubusercontent.com/k-cardon
 links:
   - name: Wiki
     url: 'https://github.com/hackforla/website/wiki'
