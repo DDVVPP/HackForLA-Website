@@ -13,6 +13,8 @@ docs on printing context information into the log.
 
 async function isMemberOfTeam(github, githubUsername, team) {
     try {
+        console.log('team', team)
+        console.log("githubUsername", githubUsername);
         await github.rest.teams.getMembershipForUserInOrg({
             org: 'hackforla',
             team_slug: team,
@@ -22,6 +24,7 @@ async function isMemberOfTeam(github, githubUsername, team) {
         console.log(`User '${githubUsername}' is member of team '${team}'`);
         return true;
     } catch (verificationError) {
+        console.log('verificationError', verificationError)
         if (verificationError.status == 404) {
             console.log(`User '${githubUsername}' is not a team member`);
             return false;
